@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kerala Ministry Portal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold"
+                href="index.html">
+                Kerala Ministry Portal
+            </a>
+
+            <button class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="ministers.html">Ministers</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <section class="page-banner">
+
+        <div class="container text-center">
+
+            <h1 class="display-4 fw-bold">
+                Contact Us
+            </h1>
+
+            <p class="lead">
+                We'd love to hear from you
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="container py-5">
+
+        <div class="row g-4 text-center">
+
+            <div class="col-md-4">
+
+                <div class="card shadow h-100">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-geo-alt-fill text-success display-5"></i>
+
+                        <h5 class="mt-3">
+                            Address
+                        </h5>
+
+                        <p>
+                            Kerala Secretariat<br>
+                            Thiruvananthapuram,<br>
+                            Kerala
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card shadow h-100">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-telephone-fill text-dark display-5"></i>
+
+                        <h5 class="mt-3">
+                            Phone
+                        </h5>
+
+                        <p>
+                            +91 471 1234567
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card shadow h-100">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-envelope-fill email-icon display-5"></i>
+
+                        <h5 class="mt-3">
+                            Email
+                        </h5>
+
+                        <p>
+                            info@keralaministry.gov.in
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="container pb-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <div class="card shadow border-0">
+
+                    <div class="card-header contact-header text-white">
+
+                        <h4 class="mb-0">
+                            Send Us a Message
+                        </h4>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <form id="contactForm">
+
+                            <div class="row">
+
+                                <div class="col-md-6 mb-3">
+
+                                    <label class="form-label">
+                                        Full Name
+                                    </label>
+
+                                    <input type="text"
+                                        class="form-control"
+                                        placeholder="Enter your name"
+                                        required>
+
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+
+                                    <label class="form-label">
+                                        Email Address
+                                    </label>
+
+                                    <input type="email"
+                                        class="form-control"
+                                        placeholder="Enter email"
+                                        required>
+
+                                </div>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Phone Number
+                                </label>
+
+                                <input type="tel"
+                                    class="form-control"
+                                    placeholder="Enter phone number">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Subject
+                                </label>
+
+                                <input type="text"
+                                    class="form-control"
+                                    placeholder="Enter subject">
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea class="form-control"
+                                    rows="5"
+                                    placeholder="Type your message here..."
+                                    required></textarea>
+
+                            </div>
+
+                            <button type="submit"
+                                class="btn submit-btn px-4">
+
+                                Submit
+                            </button>
+
+                            <button type="reset"
+                                class="btn reset-btn px-4">
+
+                                Reset
+
+                            </button>
+
+                        </form>
+                        <div id="successMessage" class="alert alert-success mt-3 d-none">Message submitted successfully!</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MAP -->
+
+    <section class="container pb-5">
+
+        <div class="card shadow">
+
+            <div class="card-header contact-header text-white">
+                Office Location
+            </div>
+
+            <div class="card-body p-0">
+
+                <iframe
+                    src="https://maps.google.com/maps?q=Kerala%20Secretariat&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    width="100%"
+                    height="400"
+                    style="border:0;">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer text-center text-white py-4">
+
+        <div class="container">
+
+            <h5>
+                Kerala Ministry Portal
+            </h5>
+
+            <div class="mb-3">
+
+                <i class="bi bi-facebook fs-4 me-3"></i>
+                <i class="bi bi-instagram fs-4 me-3"></i>
+                <i class="bi bi-twitter-x fs-4 me-3"></i>
+                <i class="bi bi-youtube fs-4"></i>
+
+            </div>
+
+            <p>
+                Transparency • Development • Public Service
+            </p>
+
+            <p>
+                © 2026 All Rights Reserved
+            </p>
+
+        </div>
+
+    </footer>
+<script>//just a success msg
+       document.getElementById("contactForm").addEventListener("submit", function(event){
+
+               event.preventDefault();
+
+             document.getElementById("successMessage").classList.remove("d-none");
+
+             this.reset();
+             });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+</body>
+
+</html>
